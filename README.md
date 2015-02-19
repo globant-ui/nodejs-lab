@@ -3,7 +3,7 @@
 
 ## Table of Content
 1. Introduction to NodeJS
-  1. CommonJS
+  1. CommonJS Modules
   2. Intro to npm
   3. Global, Process and Buffer
 2. Asynchronous Patterns
@@ -34,8 +34,18 @@
   3. Links
 
 ## Introduction to NodeJS ##
-### CommonJS ###
+### CommonJS Modules ###
+Code in node apps is organized in modules. There are a couple of standards on how to write a module in JavaScript. By convention, NodeJS has decided to use the CommonJS Module Specification.
+
+* [Module 1.0 - CommonJS Specification](http://www.commonjs.org/specs/modules/1.0/ "Module 1.0 - CommonJS Specification")
+* [A complete explanation of the 3 most used module definitions](http://addyosmani.com/writing-modular-js/ "Modules in JavaScript")
 ### Intro to npm ###
+npm is a package manager for JavaScript, and is the default for Node.js. npm makes it easy for JavaScript developers to share and reuse code, and it makes it easy to update the code that you're sharing.
+
+* [What is npm? Short explanation video](https://www.youtube.com/watch?v=pa4dc480Apo)
+* [Installing node and updating npm](https://docs.npmjs.com/getting-started/installing-node)
+* [Create and publish modules to npm](https://quickleft.com/blog/creating-and-publishing-a-node-js-module/)
+
 ### Global, Process and Buffer###
 
 ## Asynchronous Patterns ##
@@ -48,8 +58,20 @@
 ## Debugging and Profiling ##
 - How to debug using Node inspector: [https://vimeo.com/77870960](https://vimeo.com/77870960)
 - Debugging apps using WebStorm: [https://www.jetbrains.com/webstorm/help/running-and-debugging-node-js.html](https://www.jetbrains.com/webstorm/help/running-and-debugging-node-js.html)
+- Profiling NodeJS applications: [http://www.willvillanueva.com/the-node-js-profiling-guide-that-hasnt-existed-profiling-node-js-applications-part-1/](http://www.willvillanueva.com/the-node-js-profiling-guide-that-hasnt-existed-profiling-node-js-applications-part-1/)
+- CPU Profiling: [http://www.clock.co.uk/blog/easy-cpu-profiling-in-node-js](http://www.clock.co.uk/blog/easy-cpu-profiling-in-node-js)
 ## Others ##
-### Socket.io and Redis ###
+### Socket.io ###
+ Socket.IO enables real-time bidirectional event-based communication.
+It works on every platform, browser or device, focusing equally on reliability and speed.
+
+
+* [Engine.IO: the realtime engine](https://github.com/Automattic/engine.io)
+* [Socket.IO](http://socket.io/docs/)
+* [Migration from 0.9 to 1.0](http://socket.io/docs/migrating-from-0-9/)
+* [Example application](https://github.com/Automattic/socket.io/tree/master/examples/chat)
+
+### Redis ###
 ### Popular modules ###
 - **Express Framework**: Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. [https://www.npmjs.com/package/express](https://www.npmjs.com/package/express "Express Framework")
 
