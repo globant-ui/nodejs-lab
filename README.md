@@ -46,6 +46,8 @@
 ## Express ##
 ## MongoDB ##
 ## Debugging and Profiling ##
+- How to debug using Node inspector: [https://vimeo.com/77870960](https://vimeo.com/77870960)
+- Debugging apps using WebStorm: [https://www.jetbrains.com/webstorm/help/running-and-debugging-node-js.html](https://www.jetbrains.com/webstorm/help/running-and-debugging-node-js.html)
 ## Others ##
 ### Socket.io and Redis ###
 ### Popular modules ###
