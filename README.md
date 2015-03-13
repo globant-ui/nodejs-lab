@@ -106,6 +106,7 @@ This section introduces RESTful principles, along with the HTTP protocol basics.
 ### REST principles ###
 - [What is REST? Brief introduction video](https://www.youtube.com/watch?v=7YcW25PHnAA)
 - [REST Principles](http://en.wikipedia.org/wiki/Representational_state_transfer#Architectural_constraints)
+
 ## Express ##
 Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
 
