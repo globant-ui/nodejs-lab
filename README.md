@@ -123,6 +123,8 @@ Express is a minimal and flexible Node.js web application framework that provide
 - [Template engine consolidation library](https://www.npmjs.com/package/consolidate)
 
 ## Data Repositories ##
+In this section you will learn about two popular data repositories.
+
 ### MongoDB ###
 MongoDB is an open source document-oriented database that provides high availability, high performance and automatic scaling.
 
